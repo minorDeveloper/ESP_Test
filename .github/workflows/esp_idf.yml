@@ -1,8 +1,7 @@
+name: ESP-IDF
+on: [push]
 jobs:
   build:
-    on: 
-      push
-
     runs-on: ubuntu-latest
 
     steps:
